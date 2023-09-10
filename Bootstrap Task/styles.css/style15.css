@@ -1,0 +1,44 @@
+.navbar-e{
+    text-decoration: none;
+    color:dimgray  !important;
+}
+
+.pricing-header {
+    padding: 10px 300px !important;
+}
+
+.lead{
+    color:dimgray;
+    padding-bottom: 10px;
+}
+
+.text-muted{
+    text-decoration: none;
+}
+
+.card {
+    height: 350px;
+    width: 320px;
+    
+}
+
+.card-body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-block {
+    margin-top: 20px;
+    width: 100%;
+}
+
+li{
+    color:dimgray;
+}
+
+.footer-icon{
+    padding-left: 40px;
+}
+

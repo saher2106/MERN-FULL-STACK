@@ -1,0 +1,39 @@
+body{
+    background-color: darkgoldenrod;
+    margin: 0%;
+    padding: 0%;
+    display: flex; /*for horizontal layout */
+}
+
+.main{
+    color:rgb(86, 31, 93);
+    padding:0px 200px;
+    font-size: larger;
+    /* position: relative; */
+}
+
+.main hr{
+    background-color:rgb(86, 31, 93);
+    border: none;
+    height: 1px;
+}
+
+.navbar{
+    width:200px;
+    height: max-content;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-start; 
+}
+
+.navbar a{
+    background-color: rgb(205, 181, 122);
+    width: 200px;
+    text-decoration: none;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    display: block;
+    font-size: larger;
+    border-right: 20px solid black;
+}

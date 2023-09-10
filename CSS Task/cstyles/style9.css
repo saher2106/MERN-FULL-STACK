@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    margin-left: 150px;
+}
+
+
+h4{
+    margin-left:150px;
+    font-weight: lighter;
+}
+
+
+.sidenav{
+    height:100%;
+    width:200px;
+    position: fixed;
+    top:150px;
+    left:-150px;
+}
+
+
+.sidenav a.button{
+    padding: 25px 60px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    transition: 0.3s;
+    font-size:larger;
+    text-align: center;
+    border-radius: 5px; 
+    margin: 5px 0;
+}
+
+.sidenav a.button.green{
+    background-color: #04a96d;
+}
+
+.sidenav a.button.blue{
+    background-color: blue;
+}
+
+.sidenav a.button.red{
+    background-color: red;
+}
+
+.sidenav a.button.grey{
+    background-color: dimgrey;
+}
+
+.sidenav a.button:hover {
+    width: 80px; /* Expand the button on hover */
+}
+
+.sidenav:hover {
+    left: -35px;
+}
+
+
+.sidenav:not(:hover) {
+    left: -150px;
+}

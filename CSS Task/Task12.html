@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 12</title>
+    <link rel="stylesheet" type="text/css" href="cstyles/style12.css">
+</head>
+<body>
+    <div class="info">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name" placeholder="Your name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" placeholder="Your email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td><input type="number" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="radio-label">Male</label>
+                        
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="radio-label">Female</label>
+                        
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other" class="radio-label">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Select Language:</label></td>
+                    <td>
+                        <select name="language" id="language">
+                            <option value="" disabled selected>Select language</option>
+                            <option value="english">English</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="french">French</option>
+                            <option value="german">German</option>
+                            <!-- Add more language options as needed -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zip">Zip Code:</label></td>
+                    <td><input type="number" name="zip" required></td>
+                </tr>
+                <tr>
+                    <td><label class="about">About:</label></td>
+                    <td><textarea name="about" rows="4" placeholder="Write about yourself..." required></textarea></td>
+                </tr>
+                <tr>
+                    <td  colspan="2"><button type="submit" class="register-button">Register</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

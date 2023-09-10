@@ -1,0 +1,23 @@
+.navbar {
+    padding: 0; 
+    margin: 0; 
+    background-color: darkgrey;
+}
+
+.header{
+    padding: 5px; 
+    font-size: 28px;
+}
+
+.nav-link:not(.right){
+    margin-right: 60px;
+}
+
+.tab{
+    height: 100vh;
+    font-weight:300;
+}
+
+.content{
+    color:darkgray;
+}

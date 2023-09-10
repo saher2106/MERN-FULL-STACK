@@ -1,0 +1,177 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color:#030F27;
+    letter-spacing: 1px;
+}
+
+.header{
+    height: 85px;
+    padding-left: 60px; 
+    padding-right: 60px;
+}
+
+h1{ 
+    font-size: 60px;
+    font-weight: 750;
+}
+
+h6{
+    font-size: 16px;
+    margin: 0;
+}
+
+.e{
+    width: 40px;
+    margin-top: 15px;
+}
+
+.header-item-text{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.col-4{
+    padding:5px 20px
+}
+
+.hp{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+
+.navbar{
+    padding-left: 72px; 
+    padding-right: 72px;
+    margin: 0;
+    padding: 0;
+    border-left: 70px solid #FFC107; /* Warning color */
+    border-right: 70px solid #FFC107; /* Warning color */
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color:#FFC107; /* Change to your desired hover color */
+}
+
+.main{
+    padding: 20px;
+    background-color: #030F27;
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+    font-size: 15px;
+    padding: 10px;
+}
+
+.navbutton:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+    color:#030F27;
+}
+
+
+.btn{
+    border-radius: 0%;
+    border-width: 2px;
+}
+
+.carousel-item{
+    max-height: 500px;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the alpha (fourth value) to control darkness */
+}
+
+.mt{
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.page-heading{
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight:900;
+    font-family: sans-serif;
+}
+
+.carousel-button {
+    padding: 15px 20px;
+    margin-bottom: 150px;
+    font-weight: 800;
+}
+
+.carousel-button:hover{
+    background-color: #FFC107;
+    border-color: #FFC107;
+    color:#030F27;
+    font-weight: 800;
+}
+
+.footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.one, .three{
+    background-color: #030F27;
+    color: #FFC107;
+}
+
+.two{
+    background-color: #FFC107;
+    color: #030F27;
+}
+
+.one, .two, .three{
+    padding: 30px;
+    min-height: 230px;
+}
+
+.footer-text-head{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-elements{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.f{
+    width: 70px;
+    filter: invert(100%);
+    margin-right: 10px; 
+    
+}
+
+.ff{
+    width: 70px;
+    margin-right: 10px; 
+}
+
+.footer-icon{
+    position: absolute;
+    margin: 0;
+    margin-top: 30px;
+    width: 80px;
+}
+  
+.footer-content{
+    margin-top: 30px;
+    margin-left: 100px;
+}

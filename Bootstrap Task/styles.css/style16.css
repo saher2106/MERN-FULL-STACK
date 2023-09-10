@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 85vh !important;
+    width: 250px;
+    margin: 15px 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-title-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; 
+}
+
+.card:hover .card-title-overlay {
+    opacity: 1; /* Show the title overlay on hover */
+}
+
+.card-title {
+    color: white; /* Text color for the title */
+}
+
+.link-card {
+    margin-bottom: 20px;
+}
+
+.link-card a {
+    text-decoration: none;
+    color:saddlebrown;
+    font-weight: 700;
+    opacity: 80%;
+}
+

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width:300vh;
+    background-color: lightgray;
+    padding:10px 0px;
+    
+}
+
+.navbar a{
+    font-size: larger;
+    padding:10px 15px;
+    border-right:1px solid blue;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:dimgray;
+    color: #ffffff;
+}
